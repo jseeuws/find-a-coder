@@ -7,11 +7,122 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Find-a-coder/hire/quiz</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <div class="jumbotron text-center">
+      <div class="container">
+        Please answer the following questions so we can find the perfect match for your company!
+      </div>
+    </div>
+    <!--Question 1 Who are you looking for?-->
+    <!--Form style 1-->
+    <div class="container">
+      <form>
+        <div class="form-group w-25" >
+          <label>Who are you looking for?</label>
+          <select class="form-control">
+            <option value="front end dev">Front end developer</option>
+            <option value="back end dev">Back end developer</option>
+            <option value="full stack dev">Full stack developer</option>
+          </select>
+      </form>
+    </div>
+
+    <!--Form style 2 radio buttons allowing only one choice-->
+    
+    <div class="form-group">
+    <label>Who are you looking for?</label>
+    <div class="form-check">
+      <input type="radio" class="form-check-input" id="materialUnchecked" name="materialExampleRadios">
+      <label class="form-check-label" for="materialUnchecked">Front end developer</label>
+    </div>
+    <div class="form-check">
+        <input type="radio" class="form-check-input" id="materialUnchecked" name="materialExampleRadios">
+        <label class="form-check-label" for="materialUnchecked">Back end developer</label>
+      </div>
+      <div class="form-check">
+          <input type="radio" class="form-check-input" id="materialUnchecked" name="materialExampleRadios">
+          <label class="form-check-label" for="materialUnchecked">Full stack developer</label>
+        </div>
+      </div>
+
+    <!--Question 2 What skills would you like to see in your new hire?-->
+
+    <div class="form-group">
+      <label>What skills are you looking for in a new hire?</label>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="materialUnchecked" name="materialExampleRadios">
+          <label class="form-check-label" for="materialUnchecked">JavaScript</label>
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="materialUnchecked" name="materialExampleRadios">
+            <label class="form-check-label" for="materialUnchecked">CSS3</label>
+        </div>
+        <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="materialUnchecked" name="materialExampleRadios">
+              <label class="form-check-label" for="materialUnchecked">HTML5</label>
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="materialUnchecked" name="materialExampleRadios">
+            <label class="form-check-label" for="materialUnchecked">PHP</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="materialUnchecked" name="materialExampleRadios">
+          <label class="form-check-label" for="materialUnchecked">React</label>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="materialUnchecked" name="materialExampleRadios">
+          <label class="form-check-label" for="materialUnchecked">Node.js</label>
+        </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="materialUnchecked" name="materialExampleRadios">
+        <label class="form-check-label" for="materialUnchecked">MySQL</label>
+      </div>
+      <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="materialUnchecked" name="materialExampleRadios">
+          <label class="form-check-label" for="materialUnchecked">Python</label>
+      </div>
+    </div><!--closing tag form-group-->
+
+<!--Question 3 What skill level are you looking for in a new hire?-->
+
+    <div class="form-group">
+        <label>What skill level are you looking for in a new hire?</label>
+        <div class="form-check">
+          <input type="radio" class="form-check-input" id="materialUnchecked" name="materialExampleRadios">
+          <label class="form-check-label" for="materialUnchecked">Less than 3 years of experience</label>
+        </div>
+        <div class="form-check">
+            <input type="radio" class="form-check-input" id="materialUnchecked" name="materialExampleRadios">
+            <label class="form-check-label" for="materialUnchecked">More than 3 years of experience</label>
+        </div>
+        <div class="form-check">
+              <input type="radio" class="form-check-input" id="materialUnchecked" name="materialExampleRadios">
+              <label class="form-check-label" for="materialUnchecked">I'm open to any skill level</label>
+        </div>
+    </div><!--/form-group-->
+
+<!--Question 4 What type of project are you hiring for?-->
+
+    <div class="form-group">
+        <label>What type of project are you hiring for?</label>
+        <div class="form-check">
+          <input type="radio" class="form-check-input" id="materialUnchecked" name="materialExampleRadios">
+          <label class="form-check-label" for="materialUnchecked">New project</label>
+        </div>
+        <div class="form-check">
+            <input type="radio" class="form-check-input" id="materialUnchecked" name="materialExampleRadios">
+            <label class="form-check-label" for="materialUnchecked">Existing project that needs more resources</label>
+        </div>
+        <div class="form-check">
+              <input type="radio" class="form-check-input" id="materialUnchecked" name="materialExampleRadios">
+              <label class="form-check-label" for="materialUnchecked">Ongoing assistance</label>
+        </div>
+    </div><!--/form-group-->
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
