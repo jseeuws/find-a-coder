@@ -1,0 +1,38 @@
+
+    
+
+.grid-container{
+    display: grid;
+    grid-template-columns:1% 18% 60% 18%;
+    grid-template-rows: 1%  2% 2% 5% 80%;
+    grid-template-areas: ". . . . "
+                         ". . av ."
+                         ". car ref soc"
+                         ". car ab soc"
+                         ". . tes .";
+    grid-gap: 0.1% 1%;
+}
+#soc{
+    grid-area: soc;
+    width: 100%;
+}
+#car{
+    grid-area: car;
+}
+#av{
+    grid-area: av;
+}
+#ab{
+    grid-area: ab;
+}
+#tes{
+    grid-area: tes;
+}
+#ref{
+    grid-area: ref;
+    color: wheat;
+    a{
+        text-decoration: none;
+        color: wheat;
+    }
+}
