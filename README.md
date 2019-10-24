@@ -3,15 +3,16 @@
 Name: find-a-coder.com
 Buisness: Virtual meeting point for programmers and companies loking for programmers
 
-Homepage: -Who are we + logo
-          -What do we do
-          -Nav bar transparent and hip
+Homepage:  
+  *Who are we + logo
+  *What do we do
+  *Nav bar transparent and hip
 Logos of companies with us/ testimonies
 Do you want to hire?
 Do you want to be hired?
 
 Company:
--About us
+  *About us
 -What we offer
 -Rules
 -How does it work
