@@ -4,12 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="profile.css">
     <title>User Profile</title>
 </head>
-<body>
-<article class="container">
-    <article id="pic-and-skills" class="card" style="width: 18rem;">
-    <img src="pics/me.jpg" class="card-img-top w-100 rounded-circle" alt="profile_pic">
+<body class="bg-primary">
+<article class="grid-container">
+    <article id="car" class="card bg-warning text-light" style="width: 18rem;">
+    <img src="pics/me.jpg" class="card-img-top w-100 h-100 rounded-circle" alt="profile_pic">
     <div class="card-body">
         <h4 class="card-title">Claas Steigüber</h4>
         <p class="card-text">Skills:</p>
@@ -23,18 +24,18 @@
     </div>
 
     </article>
-    <section id="availability" class="row">
+    <section id="av" class="row">
         <h3>Availability: Available</h3>
         <button>Edit</button>
     </section>
-    <section id="inside-nav" class="row justify-content-around">
-        <a href="#">About</a>
-        <a href="#">References 30</a>
-        <a href="#">Contacts 5</a>
+    <section id="inside-nav" class="row justify-content-around text-light" >
+        <a href="#" style="text-decoration: none;">About</a>
+        <a href="#" style="text-decoration: none;">References 30</a>
+        <a href="#" style="text-decoration: none;">Contacts 5</a>
         <p>Member since 2019</p>
     </section>
 
-    <section id="about-me">
+    <section id="ab">
         <h3>Education</h3>
             <p>I graduated at BeCode university</p>        
         <h3>Experience</h3>
@@ -50,14 +51,14 @@
             <p>I really need to test my codes on the machines in their working environment (aka outer space). If you can't bring me there, there's little use hiring me.</p>
     </section>
 
-    <section id="testimonies" class="container">
+    <section id="tes" class="container">
         <h3>Testimonies</h3>
         <section class="row justify-content-around">
             <p>from companies</p>
             <p>from colleages</p>
         </section>
         <section id="testi-nasa" class="row">
-            <img src="pics/nasa.jpeg" class="col-4" alt="nasa_logo">
+            <img src="pics/nasa.jpeg" class="col-4 w-100 h-100" alt="nasa_logo">
             <div class="col-8 jumbotron">
                 <h1 class="display-4">Nasa</h1>
                 <p class="lead">Member since 2019</p>
@@ -66,21 +67,23 @@
             </div>
         </section>
         <section id="testi-pizza" class="row">
-                <img src="pics/pizza-palace.jpeg" class="col-4" alt="nasa_logo">
+                <img src="pics/pizza-palace.jpeg" class="col-4 w-100 h-100" alt="nasa_logo">
                 <div class="col-8 jumbotron">
                     <h1 class="display-4">Luigi's Pizza Palace</h1>
                     <p class="lead">Member since 2019</p>
                     <hr class=" my-4">
-                    <p>Claas is an amazing Pizza baker, but unfortunately, he ate most of the delecious pizzas before we could sell them to our customers.</p>
+                    <p>Claas is an amazing Pizza baker, but unfortunately, he ate most of the delecious pizzas himself before we could sell them to our customers.</p>
                 </div>
         </section>
         <section id="testi-boston" class="row">
-                <img src="pics/boston-dynamics.jpeg" class="col-4" alt="nasa_logo">
+                <img src="pics/boston-dynamics.jpeg" class="col-4 w-100 h-100" alt="nasa_logo">
                 <div class="col-8 jumbotron">
                     <h1 class="display-4">Boston Dynamics</h1>
                     <p class="lead">Member since 2019</p>
                     <hr class=" my-4">
-                    <p>Claas is an amazing Pizza baker, but unfortunately, he ate most of the delecious pizzas before we could sell them to our customers.</p>
+                    <p>Claas completly screwed up with our robots. In our household-assisting robots he implemented the codes for autonomous lethal weapons.</p>
+                    <p>Luckily, nobody died and the damage done can be reimbursed by the winst of selling the material from the surveiliance cameras to Hollywood.</p>
+                    <p>Look out for the new movie "Terminater 7: Boston apocalypse"!</p>
                 </div>
         </section>
     </section>

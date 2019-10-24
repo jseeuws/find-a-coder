@@ -1,0 +1,20 @@
+#inside-nav a {
+  text-decoration: none;
+  color: wheat;
+}
+
+#car {
+  grid-area: car;
+}
+
+#av {
+  grid-area: av;
+}
+
+#ab {
+  grid-area: ab;
+}
+
+#tes {
+  grid-area: tes;
+}
