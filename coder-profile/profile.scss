@@ -1,0 +1,27 @@
+#inside-nav{
+    a{
+        text-decoration: none;
+        color: wheat;
+    }
+}
+@mixin grid-container (){
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 1fr 1fr 3fr 4fr;
+    grid-template-areas: "car av ."
+                         "car re ."
+                         "car ab ."
+                         ". tes .";
+}
+#car{
+    grid-area: car;
+}
+#av{
+    grid-area: av;
+}
+#ab{
+    grid-area: ab;
+}
+#tes{
+    grid-area: tes;
+}
