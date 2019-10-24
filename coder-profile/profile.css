@@ -1,20 +1,47 @@
-#inside-nav a {
-  text-decoration: none;
-  color: wheat;
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1% 18% 60% 18%;
+      grid-template-columns: 1% 18% 60% 18%;
+  -ms-grid-rows: 1%  2% 2% 5% 80%;
+      grid-template-rows: 1%  2% 2% 5% 80%;
+      grid-template-areas: ". . . ." ". car av ." ". car ref ." ". car ab ." ". . tes .";
+  grid-gap: 0.1% 1%;
 }
 
 #car {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 2;
   grid-area: car;
 }
 
 #av {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
   grid-area: av;
 }
 
 #ab {
+  -ms-grid-row: 4;
+  -ms-grid-column: 3;
   grid-area: ab;
 }
 
 #tes {
+  -ms-grid-row: 5;
+  -ms-grid-column: 3;
   grid-area: tes;
+}
+
+#ref {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+  grid-area: ref;
+  color: wheat;
+}
+
+#ref a {
+  text-decoration: none;
+  color: wheat;
 }
