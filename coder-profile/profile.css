@@ -5,8 +5,15 @@
       grid-template-columns: 1% 18% 60% 18%;
   -ms-grid-rows: 1%  2% 2% 5% 80%;
       grid-template-rows: 1%  2% 2% 5% 80%;
-      grid-template-areas: ". . . ." ". car av ." ". car ref ." ". car ab ." ". . tes .";
+      grid-template-areas: ". . . ." ". car av soc" ". car ref soc" ". car ab soc" ". . tes .";
   grid-gap: 0.1% 1%;
+}
+
+#soc {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 4;
+  grid-area: soc;
 }
 
 #car {

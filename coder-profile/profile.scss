@@ -6,11 +6,14 @@
     grid-template-columns:1% 18% 60% 18%;
     grid-template-rows: 1%  2% 2% 5% 80%;
     grid-template-areas: ". . . ."
-                         ". car av ."
-                         ". car ref ."
-                         ". car ab ."
+                         ". car av soc"
+                         ". car ref soc"
+                         ". car ab soc"
                          ". . tes .";
     grid-gap: 0.1% 1%;
+}
+#soc{
+    grid-area: soc;
 }
 #car{
     grid-area: car;
