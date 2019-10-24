@@ -1,8 +1,33 @@
 html{
-    font-size: 1rem;
+    
     
 }
-
-.form-check-input{
-    size: 10rem;
+body{
+    background-color: rgba(44, 120, 170, 0.993);
+}
+.main-container{
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    font-size: 2rem;
+}
+.lead{
+    font-size: 1.75rem;
+}
+.head-label{
+    font-weight: 700;
+}
+input{
+    font-size: 2rem;
+    
+}
+.top-container {
+    background-color: rgba(44, 120, 170, 0.993);
+    color: white;
+}
+.jumbotron{
+    background-color: rgba(44, 120, 170, 0.993);
+}
+.submit-btn{
+    background-color: rgba(44, 120, 170, 0.993);
+    color: aliceblue;
 }
