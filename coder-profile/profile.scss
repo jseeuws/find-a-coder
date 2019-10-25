@@ -1,19 +1,20 @@
 
     
 
-.grid-container{
+.prog-container{
     display: grid;
     grid-template-columns:1% 18% 60% 18%;
     grid-template-rows: 1%  2% 2% 5% 80%;
-    grid-template-areas: ". . . ."
-                         ". car av soc"
+    grid-template-areas: ". . . . "
+                         ". . av ."
                          ". car ref soc"
                          ". car ab soc"
-                         ". . tes .";
+                         ". . tes soc";
     grid-gap: 0.1% 1%;
 }
 #soc{
     grid-area: soc;
+    width: 100%;
 }
 #car{
     grid-area: car;
